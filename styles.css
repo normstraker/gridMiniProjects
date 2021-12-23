@@ -188,6 +188,11 @@ Cards
   }
 } */
 
+.card {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+}
 /* 1rem is equal to 16px */
 /* 1170 - 64 = 1106 / 3 = 368.66px */
 /* 1170 - 96 = 1106 / 4 = 268.5px */

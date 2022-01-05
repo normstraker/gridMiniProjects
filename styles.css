@@ -119,11 +119,11 @@ Hero
   justify-content: center;
   align-items: center;
 }
-.hero-banner {
-  /* background: blue; */
-  /* text-align: center; */
-  /* padding: 0 1rem; */
-}
+/* .hero-banner {
+  background: blue; 
+  text-align: center; 
+  padding: 0 1rem; 
+} */
 .hero-banner p {
   width: 80%;
   max-width: 560px;
@@ -245,6 +245,7 @@ Tiles
   }
   .tiles img {
     height: 100%;
+    object-fit: cover;
   }
   .tile-1 {
     grid-area: a;
